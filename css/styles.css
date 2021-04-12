@@ -1,0 +1,198 @@
+
+.row{
+  padding-top: 4.5rem;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.start{
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  color: #4a3f35;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3{
+  color: #c81912;
+  margin-bottom: 20px;
+}
+
+li{
+  color: black;
+}
+
+.container-fluid{
+  padding: 1% 5%;
+}
+
+#title{
+  height: 70rem;
+}
+
+/*Navigation styling*/
+
+.navbar{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15)
+}font-family: 'Ubuntu', sans-serif;
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/*Middle container*/
+
+.middle-container{
+  position: absolute;
+  align-content: center;
+  width: 80%;
+  height: 30%;
+  left:14%;
+  margin-left:-50px;
+  top: 160%;
+
+}
+
+.middle-container .row .col{
+  align-items: center;
+  transform: translateY(-60px);
+}
+
+/*Features styling*/
+
+#features{
+  padding: 120px 40px;
+  background-color: #f3f8ff;
+}
+
+.col1{
+  background-color: #fff;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15)
+
+}
+
+.box-text{
+  padding-top: 10px;
+  color: grey;
+
+}
+
+.box-img{
+  margin-bottom: 10px;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+span{
+  color: #26baee;
+}
+
+/*Testimonals styling */
+
+#testimonals{
+  margin: 20px;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.layout{
+  color: #26baee;
+  padding-top: 4rem;
+}
+
+.selector{
+  width: 20px;
+  padding: 20px 0;
+  border: 2px;
+}
+
+#press {
+  background: #f3f8ff;
+  height: 40%;
+  padding: 10px;
+}
+
+.box {
+  border-radius: 25px;
+  margin: 50px auto;
+  width: 60%;
+}
+
+.box .col {
+  padding: 15px 5px 0 5px;
+  margin: 0 2px;
+  background: #fff;
+}
+
+.box .col:nth-child(1) {
+  border-radius: 25px 0 0 25px;
+}
+
+.box .col:nth-child(3) {
+  border-radius: 0 25px 25px 0;
+}
+
+.box .col:hover{
+  color: white;
+  background-color: #26baee;
+}
+
+.row2{
+  margin-right: 20px;
+  padding: 50px 8rem;
+}
+
+i{
+  color: green;
+}
+
+.button-style{
+    width: 70%;
+    height: 10%;
+    color: #fff;
+    background-color: grey;
+    border-radius: 20px;
+    border: none
+}
+
+.button-style:hover{
+  background-color: #26baee;
+}
+/* Profile Styling */
+#sec-card{
+  background-color: #f3f8ff;
+}
+.card2{
+  display: grid;
+}
+
+
+/*Footer Styling*/
+
+.footer-img{
+  width: 14rem;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:620px) {
+
+  .row, .col{;
+    width: 100%;
+  }
+}
